@@ -1,16 +1,22 @@
 [
   {
-    "name": "Sal",
+    "username": "Sal",
+    "twitter": "sal875",
+    "github": "sal875",
     "email": "sal@hotmail.com",
     "password": "password12345"
   },
   {
-    "name": "Lernantino",
+    "username": "Lernantino",
+    "twitter": "lernandito423",
+    "github": "lernandito423",
     "email": "lernantino@gmail.com",
     "password": "password12345"
   },
   {
-    "name": "Amiko",
+    "username": "Amiko",
+    "twitter": "amiko9096",
+    "github": "amiko9096",
     "email": "amiko2k20@aol.com",
     "password": "password12345"
   }

@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
         ],
       order: [['created_at', 'DESC']],
       include: [
-        // Comment model here -- attached username to comment
+
         {
           model: Comment,
           attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
@@ -49,7 +49,7 @@ router.get('/', (req, res) => {
         'post_content'
       ],
       include: [
-        // include the Comment model here:
+
         {
           model: User,
           attributes: ['username', 'twitter', 'github']
@@ -78,6 +78,7 @@ router.get('/', (req, res) => {
   });
 
 router.post('/', withAuth, (req, res) => {
+  console.log(req.session);
     Post.create({
       title: req.body.title,
       post_content: req.body.post_content,
@@ -87,7 +88,7 @@ router.post('/', withAuth, (req, res) => {
       .catch(err => {
         console.log(err);
         res.status(500).json(err);
-      });
+      });   
 });
 
 router.put('/:id', withAuth, (req, res) => {
