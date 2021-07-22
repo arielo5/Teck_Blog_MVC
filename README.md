@@ -25,7 +25,7 @@
   
 💻 Below is a screenshot of the application:
   
-![technically speaking: a tech blog]()
+![Just a Teck Blog (MVC)](.\public\images\Just_a_Teck_Blog.png)
 
 ## User Story
 
@@ -82,6 +82,7 @@ THEN I am automatically signed out of the site
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Questions](#questions)
+- [License](#license)
 
 ## Installation
 💾   
@@ -112,7 +113,12 @@ With Nodemon:
 `npm run watch`
 
 ## Contributing
-[Ariel Martinez](https://github.com/arielo5)
+
+Have you spotted a typo, would you like to fix a link, or is there something you’d like to suggest? Browse the source repository of this article and open a pull request. I will do my best to review your proposal in due time. Click [Here](https://github.com/arielo5)
 
 ## Questions
-✉️ Contact me with any questions: [email](mailto:ari.martinez.tiru@gmail.com) , [GitHub](https://github.com/arielo5)<br />
+✉️ Contact me with any questions: [email](mailto:ari.martinez.tiru@gmail.com) , [GitHub](https://github.com/arielo5)<br/>
+
+## License
+
+  [![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://choosealicense.com/licenses/mit/)
