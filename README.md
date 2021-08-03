@@ -21,11 +21,11 @@
 
 🔍 A mysql database and CMS-style Blog built using Model View Controller (MVC) paradigm. Built using MySQL2, Express, Sequelize, Bulma, Handlebars and dotenv.
 
-**[Deployed Application](https://hidden-falls-22101.herokuapp.com/)**
+**[Deployed Application](https://just-a-teck-blog.herokuapp.com/)**
   
 💻 Below is a screenshot of the application:
   
-![Just a Teck Blog (MVC)](.\public\images\Just_a_Teck_Blog.png)
+![Just a Teck Blog (MVC)](./public/images/Just_a_Teck_Blog.png)
 
 ## User Story
 
